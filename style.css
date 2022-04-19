@@ -1,6 +1,42 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+
+.caption-box {
+  color: white;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 2%;
+  padding: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #26556d;
+  box-shadow: 5px 5px 0px #31b387;
+}
+
+.logos-bar {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 10px;
+}
+
+/* MEDIA QUERYS SIZE MD */
+@media screen and (min-width: 640px) {
+  .logo {
+    height: 3rem;
+    width: 3rem;
   }
-  
+}
