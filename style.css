@@ -122,7 +122,7 @@
   border: 3px solid rgba(98, 125, 233, 1);
   transition: border 0.2s ease-in;
 }
-.icons-grid .figure-caption{
+.icons-grid figure .figure-caption{
   color: black;
   font-weight: bold;
   font-size: smaller;
@@ -130,13 +130,6 @@
 }
 
 /* MEDIA QUERYS SIZE MD */
-@media screen and (min-width: 640px) {
-  .logo {
-    height: 3rem;
-    width: 3rem;
-  }
-
-}
 
 @media screen and (max-width: 768px) {
   .grid {
@@ -150,3 +143,16 @@
     width: 100%;
   }
 }
+
+ 
+@media (min-width: 576px) {  
+}
+ 
+@media (min-width: 768px) {  
+ 
+}
+ 
+@media (min-width: 992px) { 
+ 
+}
+ 
