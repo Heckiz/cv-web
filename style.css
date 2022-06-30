@@ -4,6 +4,24 @@
   padding: 0;
 }
 
+
+
+.contact-link{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-link p:hover{
+  color: rgb(45, 81, 63);
+  text-decoration: underline;
+  transition: all 0.01s ;
+}
+
+.contact-link img:hover{
+  transform: scale(1.05);
+  transition: all 0.01s ease-in-out;
+}
+
 #presentation-box {
   background-image: url("./assets/presentation-resources/background.svg");
   background-size: cover;
@@ -26,6 +44,8 @@
   box-shadow: 5px 5px 0px rgb(49, 179, 135);
 }
 
+
+
 .skills-bar {
   margin-top: 5%;
   margin-bottom: 2%;
@@ -37,6 +57,7 @@
   height: 2.5rem;
   width: 2.5rem;
   margin: 10px;
+  cursor: help;
 }
 
 /* TEST PROFILE IMAGE EFECT */
@@ -48,6 +69,8 @@
 .image__foreground {
   transform: translateY(4px) scale(1, 1);
   transition: transform 0.2s ease-in;
+  cursor: pointer;
+  
 }
 
 .image:hover {
@@ -79,7 +102,7 @@
   grid-template-areas:
     "table-studies table-jobs"
     " table-studies extra-info";
-    height: 55vh;
+    height: 50vh;
 }
 
 .table-studies {
@@ -116,7 +139,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 .icons-grid figure:hover {
   border: 3px solid rgba(98, 125, 233, 1);
@@ -128,6 +150,8 @@
   font-size: smaller;
   text-align: center;
 }
+
+
 
 /* MEDIA QUERYS SIZE MD */
 
@@ -142,6 +166,12 @@
   .extra-infosec{
     width: 100%;
   }
+
+  .skills-bar{
+    height: 50px;
+    width: 50px;
+  }
+
 }
 
  
@@ -153,6 +183,8 @@
 }
  
 @media (min-width: 992px) { 
- 
+  .skills-bar{
+    height: 70px;
+    width: 70px;
 }
- 
+}

@@ -26,22 +26,35 @@
 
     <div class="col-12 col-sm-10 col-xl-7 mx-auto py-3 d-flex justify-content-around align-items-center">
 
-      <div class="d-flex align-items-center ">
-        <img src="./assets/icons/contact/email.svg" width="30px" height="30px" alt="email icon">
-        <a class="mx-1 text-decoration-none text-dark d-none d-sm-block" href="#section4">fabo.romero97@gmail.com</a>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="./assets/icons/contact/linkedin.svg" width="30px" height="30px" alt="linkedin icon">
-        <a class="mx-1 text-decoration-none text-dark d-none d-sm-block" href="#section2">fabo-romero</a>
-      </div>
-      <div class="d-flex align-items-center">
-        <img src="./assets/icons/contact/github.ico.svg" width="30px" height="30px" alt="github icon">
-        <a class="mx-1 text-decoration-none text-dark d-none d-sm-block" href="#section3">Heckiz</a>
-      </div>
-      <div class="d-flex  align-items-center">
-        <img src="./assets/icons/contact/telegram.svg" width="30px" height="30px" alt="whatsapp icon">
-        <a class="mx-1 text-decoration-none text-dark d-none d-sm-block" href="#section4">+541160237947</a>
-      </div>
+
+      <a class="contact-link mx-1 text-decoration-none text-dark d-flex justify-content-between" target="_blank"
+        href="https://github.com/Heckiz">
+        <img class="mx-1" width="30px" height="30px" src="./assets/icons/contact/github.ico.svg" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="github.com/heckiz" alt="github icon">
+        <p class="d-none d-sm-block m-auto">Heckiz</p>
+      </a>
+
+      <a class="contact-link mx-1 text-decoration-none text-dark d-flex justify-content-between" target="_blank"
+        href="https://www.linkedin.com/in/fabo-romero/">
+        <img class="mx-1" width="30px" height="30px" src="./assets/icons/contact/linkedin.svg" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="linkedin.com/in/fabo-romero/" alt="linkedin icon">
+        <p class="d-none d-sm-block m-auto">fabo-romero</p>
+      </a>
+
+
+      <a class="contact-link mx-1 text-decoration-none text-dark d-flex justify-content-between" target="_blank"
+        href="mailto:fabo.romero97@gmail.com">
+        <img class="mx-1" width="30px" height="30px" src="./assets/icons/contact/email.svg" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="fabo.romero97@gmail.com" alt="email icon">
+        <p class="d-none d-sm-block m-auto"> fabo.romero97@gmail.com</p>
+      </a>
+
+      <a class="contact-link mx-1 text-decoration-none text-dark d-flex justify-content-between" target="_blank"
+        href="#section4">
+        <img class="mx-1" width="30px" height="30px" src="./assets/icons/contact/telegram.svg" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="Chat me!" alt="telegram icon">
+        <p class="d-none d-sm-block m-auto">+541160237947</p>
+      </a>
 
     </div>
   </header>
@@ -55,7 +68,7 @@
 
       <!-- TEST PROFILE IMAGE EFECT -->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 100 120" width="213" class="image">
-        <title>Profile Picture</title>
+        <title>@FABO</title>
         <desc>This is me</desc>
         <defs>
           <clipPath id="maskImage" clipPathUnits="userSpaceOnUse">
@@ -67,7 +80,7 @@
         </defs>
         <!-- Background image -->
         <g clip-path="url(#maskImage)" transform="translate(0 -7)">
-          <image clip-path="url(#maskBackground)" width="120" height="120" x="70" y="38"
+          <image clip-path="url(#maskBackground)" width="120" height="110" x="70" y="38"
             href="https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg" transform="translate(-90 -31)" />
           <!-- Foreground image -->
           <image width="120" height="144" x="-15" y="0" fill="none" class="image__foreground"
@@ -76,7 +89,6 @@
       </svg>
       <!-- / TEST PROFILE IMAGE EFECT -->
     </div>
-
     <blockquote class="col-12  col-sm-6 py-4 h5 cite mx-4 mt-5">
       "En un mundo en el que la tecnología avanza de manera constante, es nuestra responsabilidad ser capaces de
       adaptarnos y transmitir estas herramientas a las necesidades de nuestra sociedad." <br>
@@ -98,13 +110,16 @@
         <!--ICONS-->
         <div class="skills-bar">
 
-          <img class="skill-icon" src="./assets/icons/hardskills/mongodb.svg" alt="icon">
-          <img class="skill-icon" src="./assets/icons/hardskills/node.svg" alt="icon">
-          <img class="skill-icon" src="./assets/icons/hardskills/react.svg" alt="icon">
-          <img class="skill-icon" src="./assets/icons/hardskills/redux.svg" alt="icon">
-          <img class="skill-icon" src="./assets/icons/hardskills/next.js.svg" alt="icon">
-          <img class="skill-icon" src="./assets/icons/hardskills/typescript.svg" alt="icon">
-
+          <img class="skill-icon " src="./assets/icons/hardskills/mongodb.svg" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mongodb" alt="Mongodb">
+          <img class="skill-icon " src="./assets/icons/hardskills/node.svg" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js" alt="Node.js">
+          <img class="skill-icon " src="./assets/icons/hardskills/react.svg" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="React" alt="React">
+          <img class="skill-icon " src="./assets/icons/hardskills/redux.svg" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Redux" alt="Redux">
+          <img class="skill-icon" src="./assets/icons/hardskills/typescript.svg" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Typescript" alt="Typescript">
         </div>
 
         <!--DATA-->
@@ -136,12 +151,16 @@
         <!--ICONS-->
         <div class="skills-bar">
 
-          <img class="skill-icon" src="./assets/icons/softskill/adapt.png" alt="icon">
-          <img class="skill-icon" src="./assets/icons/softskill/empathy.png" alt="icon">
-          <img class="skill-icon" src="./assets/icons/softskill/light-bulb.png" alt="icon">
-          <img class="skill-icon" src="./assets/icons/softskill/perseverance.png" alt="icon">
-          <img class="skill-icon" src="./assets/icons/softskill/responsibility.png" alt="icon">
-
+          <img class="skill-icon " src="./assets/icons/softskill/responsibility.png" width="30px" height="30px"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Responsibility" alt="Responsibility">
+        <img class="skill-icon " src="./assets/icons/softskill/perseverance.png" width="30px" height="30px"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Perseverance" alt="Perseverance">
+        <img class="skill-icon " src="./assets/icons/softskill/light-bulb.png" width="30px" height="30px"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Curiosity" alt="Curiosity">
+        <img class="skill-icon " src="./assets/icons/softskill/empathy.png" width="30px" height="30px"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Empathy" alt="Empathy">
+        <img class="skill-icon" src="./assets/icons/softskill/adapt.png" width="30px" height="30px"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Adaptability" alt="Adaptability">
         </div>
 
         <!--DATA-->
@@ -183,7 +202,9 @@
       <tbody>
         <tr>
           <td class="text-center">
-            <img width="50px" height="50px" class="mx-auto my-auto" src="./assets/icons/studies/utn_logo.png" alt="">
+            <img class="skill-icon" src="./assets/icons/studies/utn_logo.png" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="right" title="Universidad Tecnológica Nacional" alt="UTN logo">
+          </div>
           </td>
           <td class="p-2">
             <p>
@@ -197,8 +218,9 @@
           </td>
         </tr>
         <tr>
-          <td class="text-center">
-            <img width="50px" height="50px" src="./assets/icons/studies/alkemy_logo.png" alt="">
+          <td class="text-center">            
+            <img class="skill-icon" src="./assets/icons/studies/alkemy_logo.png" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="right" title="Alkemy" alt="Alkemy logo">
           </td>
           <td class="p-2">
             <p>
@@ -213,7 +235,8 @@
         </tr>
         <tr>
           <td class="text-center">
-            <img width="50px" height="50px" src="./assets/icons/studies/forge_logo.png" alt="">
+            <img class="skill-icon" src="./assets/icons/studies/forge_logo.png" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="right" title="Fundación Forge" alt="Forge logo">
           </td>
           <td class="p-2">
             <p>
@@ -228,7 +251,8 @@
         </tr>
         <tr>
           <td class="text-center">
-            <img width="50px" height="50px" src="./assets/icons/studies/argentina-programa_logo.png" alt="">
+            <img class="skill-icon" src="./assets/icons/studies/argentina-programa_logo.png" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="right" title="Argentina Programa" alt="Argentina Programa logo">
           </td>
           <td class="p-2">
             <p>
@@ -257,8 +281,8 @@
       <tbody>
         <tr>
           <td class="text-center">
-            <img width="50px" height="50px" class="mx-auto my-auto" src="./assets/icons/job-experience/tecnolar_logo.png"
-              alt="">
+            <img class="skill-icon" src="./assets/icons/job-experience/tecnolar_logo.png" width="30px" height="30px"
+            data-bs-toggle="tooltip" data-bs-placement="right" title="Tecnolar" alt="Tecnolar logo">
           </td>
           <td class="p-2">
             <p>
@@ -278,74 +302,82 @@
 
     <!-- ============ < EXTRA INFO> ============ -->
 
-    <article class="extra-info flex-md-row">
+    <article class="extra-info flex-md-row mt-2">
 
-   <section class="w-75  m-2">
-    <h5 class="p-2 bg-dark text-white text-center ">
-      <strong>
-        HOBBIES
-      </strong>
-    </h5>
+      <section class="w-75  m-2">
+        <h5 class="p-2 bg-dark text-white text-center ">
+          <strong>
+            HOBBIES
+          </strong>
+        </h5>
 
-    <div class="icons-grid">
+        <div class="icons-grid">
 
-      <figure class="figure">
-        <img src="./assets/icons/hobbies/gaming.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption ">GAMING</figcaption>
-      </figure>
-
-
-      <figure class="figure">
-        <img src="./assets/icons/hobbies/bake.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">BAKE</figcaption>
-      </figure>
-
-      <figure class="figure">
-        <img src="./assets/icons/hobbies/web-development.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">STUDY</figcaption>
-      </figure>
-
-      <figure class="figure">
-        <img src="./assets/icons/hobbies/listening.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">LISTENING</figcaption>
-      </figure>
-
-    </div>
-   </section>
-
-   
-   <section class="w-75 m-2">
-    <h5 class="py-2 bg-dark text-white text-center ">
-      <strong>
-        INTERESTING
-      </strong>
-    </h5>
-
-    <div class="icons-grid">
-
-      <figure class="figure">
-        <img src="./assets/icons/interests/blockchain.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption ">BLOCKCHAIN</figcaption>
-      </figure>
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/hobbies/gaming.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption ">GAMING</figcaption>
+          </figure>
 
 
-      <figure class="figure">
-        <img src="./assets/icons/interests/realidad-virtual.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">VR & AR</figcaption>
-      </figure>
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/hobbies/bake.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption">BAKE</figcaption>
+          </figure>
 
-      <figure class="figure">
-        <img src="./assets/icons/interests/modelado-3d.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">MODELADO 3D</figcaption>
-      </figure>
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/hobbies/web-development.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption">STUDY</figcaption>
+          </figure>
 
-      <figure class="figure">
-        <img src="./assets/icons/interests/web-3.0.png" class="skill-icon" alt="">
-        <figcaption class="figure-caption">WEB 3.0</figcaption>
-      </figure>
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/hobbies/listening.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption">LISTENING</figcaption>
+          </figure>
 
-    </div>
-   </section>
+        </div>
+      </section>
+
+
+      <section class="w-75 m-2">
+        <h5 class="py-2 bg-dark text-white text-center ">
+          <strong>
+            INTERESTING
+          </strong>
+        </h5>
+
+        <div class="icons-grid">
+
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/interests/blockchain.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption ">BLOCKCHAIN</figcaption>
+          </figure>
+
+
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/interests/realidad-virtual.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption">VR & AR</figcaption>
+          </figure>
+
+          <figure class="figure" class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="test for tooltip">
+            <img src="./assets/icons/interests/modelado-3d.png" class="skill-icon" alt="">
+            <figcaption class="figure-caption">MODELADO 3D</figcaption>
+          </figure>
+
+          <figure class="figure" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="test for tooltip">
+            <img src="./assets/icons/interests/web-3.0.png" class="skill-icon" alt="Web 3.0">
+            <figcaption class="figure-caption">WEB 3.0</figcaption>
+          </figure>
+
+        </div>
+      </section>
     </article>
 
 
